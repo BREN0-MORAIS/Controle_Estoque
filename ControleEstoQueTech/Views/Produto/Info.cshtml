@@ -1,0 +1,28 @@
+﻿@model Produto
+
+    <br />
+    <div class="container text-center col-12">
+        <div class="card  text-left" style="">
+            <div class="card-header text-center">
+                Informação do Produto
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Código: @Model.ProdutoId</li>
+                <li class="list-group-item">Produto:  @Model.Nome</li>
+                <li class="list-group-item">Sobre:  @Model.Descricao</li>
+                <li class="list-group-item">Categoria:  @Model.Categoria.Descricao</li>
+                <li class="list-group-item">Preço:  @Model.Preco</li>
+                <li class="list-group-item">Fornecedor:  @Model.Fornecedor.Empresa</li>
+
+            </ul>
+        </div>
+        <br />
+        <form>
+            <div class="form-group  text-center">
+                <input type="submit" value="Voltar" class="btn btn-dark text-center p-2 col-4" asp-action="Index" asp-controller="Produto" />
+            </div>
+        </form>
+    </div>
+
+
+
