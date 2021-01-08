@@ -20,7 +20,7 @@ using DataAcess;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"995ff7b24826a557c1cb9206eefe08c7f491d84d", @"/Views/Categoria/Deletar.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"658219b8c4eb15f371df01cdb87c6b0d77db4653", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"67d1231f22cec885537d65db9161d5eeb7d624d4", @"/Views/_ViewImports.cshtml")]
     public class Views_Categoria_Deletar : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Categoria>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", new global::Microsoft.AspNetCore.Html.HtmlString("submit"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

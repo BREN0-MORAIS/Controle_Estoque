@@ -167,14 +167,11 @@
     <Compile Include="Data\AppDataContext.cs" />
     <Compile Include="Data\ErrorViewModel.cs" />
     <Compile Include="Data\Model\Categoria.cs" />
-    <Compile Include="Data\Model\Estoque.cs" />
     <Compile Include="Data\Model\Fornecedor.cs" />
     <Compile Include="Data\Model\Produto.cs" />
     <Compile Include="Data\Repository\CategoriaRepository.cs" />
-    <Compile Include="Data\Repository\EstoqueRepository.cs" />
     <Compile Include="Data\Repository\FornecedoresRepository.cs" />
     <Compile Include="Data\Repository\IRepository\ICategoriaRepository.cs" />
-    <Compile Include="Data\Repository\IRepository\IEstoqueRepository.cs" />
     <Compile Include="Data\Repository\IRepository\IFornecedoresRepository.cs" />
     <Compile Include="Data\Repository\IRepository\IProutoRepository.cs" />
     <Compile Include="Data\Repository\IRepository\IRepository.cs" />
@@ -182,12 +179,31 @@
     <Compile Include="Data\Repository\ProdutoRepository.cs" />
     <Compile Include="Data\Repository\Repository.cs" />
     <Compile Include="Data\Repository\UnitOfWork.cs" />
+    <Compile Include="Migrations\20201231171700_Initi.cs" />
+    <Compile Include="Migrations\20201231171700_Initi.designer.cs">
+      <DependentUpon>20201231171700_Initi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20201231172459_Initial.cs" />
+    <Compile Include="Migrations\20201231172459_Initial.designer.cs">
+      <DependentUpon>20201231172459_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210107013228_dbTech.cs" />
+    <Compile Include="Migrations\20210107013228_dbTech.designer.cs">
+      <DependentUpon>20210107013228_dbTech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210108011109_Initial02.cs" />
+    <Compile Include="Migrations\20210108011109_Initial02.designer.cs">
+      <DependentUpon>20210108011109_Initial02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\AppDataContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\GeralVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

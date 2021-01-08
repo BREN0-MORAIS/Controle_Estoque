@@ -39,7 +39,7 @@ namespace DataAcess
        
         public Categoria GetId(Categoria entity)
         {
-            var buscarId = _db.Categorias.Include(a=> a.Produto).FirstOrDefault(a => a.CategoriaId == entity.CategoriaId);
+            var buscarId = _db.Categorias.FirstOrDefault(a => a.CategoriaId == entity.CategoriaId);
 
             return buscarId;
         }

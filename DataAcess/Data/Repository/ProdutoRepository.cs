@@ -21,7 +21,7 @@ namespace DataAcess
 
         public IEnumerable<Produto> GetAll()
         {
-            IEnumerable<Produto> produto  = _context.Produtos.Include(a=> a.Fornecedor).Include(a=> a.Categoria).ToList();
+            IEnumerable<Produto> produto  = _context.Produtos.Include("Fornecedor").Include("Categoria").ToList();
 
             return produto;
         }
@@ -66,10 +66,21 @@ namespace DataAcess
         {
             _context.Update(entity);
         }
-       
-       public void Save(Produto entity)
+        public Produto GetId(int produto)
         {
-            throw new NotImplementedException();
+            var buscar = _context.Produtos.Include("Fornecedor").Include("Categoria").First(a => a.ProdutoId == produto);
+
+            return buscar;
+        }
+        public void Update(int entity)
+        {
+            _context.Update(GetId(entity));
+        }
+
+
+        public void Save(Produto entity)
+        {
+            _context.SaveChanges();
         }
        
      

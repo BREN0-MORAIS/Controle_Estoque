@@ -10,9 +10,9 @@ namespace ControleEstoQueTech
         private readonly AppDataContext _context;
         private readonly IFornecedoresRepository _fornecedor;
         private readonly ICategoriaRepository _categoria;
-
+    
         //private readonly UnitOfWork _unitOfWork;
-
+      
         public ProdutoController(IProdutoRepository produto, AppDataContext context, ICategoriaRepository categoria, IFornecedoresRepository fornecedores)
         {
             _categoria = categoria;
@@ -23,7 +23,17 @@ namespace ControleEstoQueTech
         }
         public IActionResult Index()
         {
-            return View(_produto.GetAll());
+            var obj = new GeralVM()
+            {
+             Produtos =  _produto.GetAll(),
+             Categorias = _categoria.GetAll()
+            };
+
+            ViewBag.data = _produto.GetAll();
+            ViewBag.dialogData = _produto.GetAll();
+          
+
+            return View(obj);
         }
         [HttpPost]
         public  IActionResult AdicionarProduto(Produto produto)
@@ -58,18 +68,27 @@ namespace ControleEstoQueTech
             ViewBag.Fornecedor = _fornecedor.GetAll();
             //ViewBag.Estados = _produto.GetAll().Select(c=> new SelectListItem() { Text = c.Categoria.Descricao,Value=c.Categoria.Descricao});
             ViewBag.Categorias = _categoria.GetAll();
-            return View(_produto.Get(produto));
+            //return View(_produto.Get(produto));
+
+            GeralVM obj = new GeralVM
+            {
+                Categorias = _context.Categorias,
+                Produtos = _context.Produtos,
+                Produto = _produto.Get(produto),
+
+            };
+
+            return View(obj);
         }
 
         public IActionResult Info(Produto produto)
         {
-            return View(_produto.Get(produto));
+            return View(_produto.GetId(produto));
         }
-
         [HttpPost]
          public IActionResult Atualizar(Produto produto)
          {
-      
+         
              _produto.Update(produto);
              _produto.Save();
 

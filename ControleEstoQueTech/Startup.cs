@@ -23,7 +23,7 @@ namespace ControleEstoQueTech
             
             services.AddDbContext<AppDataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
            services.AddScoped<IProdutoRepository, ProdutoRepository>();
-           services.AddScoped<IEstoqueRepository, EstoqueRepository>();
+
            services.AddScoped<IFornecedoresRepository, FornecedoresRepository>();
            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             //services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -34,6 +34,7 @@ namespace ControleEstoQueTech
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mzc0OTQ1QDMxMzgyZTM0MmUzME1vQ0R2UHdqdEp6b1lTMVNxSG92NjQ0S3kwcGVWc2dYTmdkUWV3YW12OWs9");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

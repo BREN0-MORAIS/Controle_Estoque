@@ -2,6 +2,7 @@ C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\ne
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.AssemblyInfoInputs.cache
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.AssemblyInfo.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.csproj.CoreCompileInputs.cache
+C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.RazorAssemblyInfo.cache
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.RazorAssemblyInfo.cs
@@ -11,6 +12,8 @@ C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\ne
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.TagHelpers.input.cache
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.TagHelpers.output.cache
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.RazorCoreGenerate.cache
+C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\CategoriaFornecedor\Index.cshtml.g.cs
+C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Categoria\Deletar.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Categoria\Index.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -19,6 +22,7 @@ C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\ne
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Excluir.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Index.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Info.cshtml.g.cs
+C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\SemCategoriaFornecedor\Index.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -63,6 +67,8 @@ C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\ne
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\Syncfusion.EJ2.dll
+C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
@@ -83,5 +89,3 @@ C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\ne
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.Views.pdb
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.csproj.CopyComplete
 C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.genruntimeconfig.cache
-C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\Categoria\Deletar.cshtml.g.cs
-C:\Users\55659\source\repos\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\Razor\Views\SemCategoriaFornecedor\Index.cshtml.g.cs

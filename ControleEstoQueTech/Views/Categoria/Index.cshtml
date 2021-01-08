@@ -5,14 +5,14 @@
             <h3><span class="badge badge-light text-center">Cadastrar Categoria</span></h3>
             <br />
             <label for="formGroupExampleInput">Nome Categoria</label>
-            <input type="text" class="form-control" asp-for="Descricao" id="formGroupExampleInput" placeholder="Nome do Produto">
+            <input type="text" class="form-control" asp-for="Descricao" id="formGroupExampleInput" placeholder="Nome do Categoria">
             <br />
             <div class="form-group  text-center">
                 <input type="submit" value="Salvar" class="btn btn-primary text-center p-2 col-4" />
                 <input type="submit" value="Voltar" class="btn btn-dark text-center p-2 col-4" onclick="Sucesso()" asp-action="Index" asp-controller="Categoria" />
                 <br />
                 <br />
-                <input type="submit" value="Visualizar Categorias" class="btn btn-success text-center p-2 col-4" onclick="Sucesso()" asp-action="Deletar" asp-controller="Categoria" />
+                <input type="submit" value="Visualizar Categorias" class="btn btn-success text-center p-2 col-4" asp-action="Deletar" asp-controller="Categoria" />
 
             </div>
 

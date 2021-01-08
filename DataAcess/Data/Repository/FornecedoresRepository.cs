@@ -16,7 +16,7 @@ namespace DataAcess
 
         public void Add(Fornecedor entity)
         {
-            throw new NotImplementedException();
+            _db.Add(entity);
         }
 
         public void Delete(Fornecedor entity)
@@ -24,15 +24,11 @@ namespace DataAcess
             throw new NotImplementedException();
         }
 
-        public Estoque Get(Fornecedor entity)
-        {
-            throw new NotImplementedException();
-        }
 
         public IEnumerable<Fornecedor> GetAll()
         {
 
-            return _db.Fornecedores.Include(c=> c.Produto).ToList();
+            return _db.Fornecedores.ToList();
         }
 
         public Fornecedor GetId(Fornecedor entity)

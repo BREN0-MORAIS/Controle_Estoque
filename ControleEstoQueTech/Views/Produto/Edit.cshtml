@@ -1,22 +1,31 @@
 ﻿
-@model Produto
+@model GeralVM
 @{
     ViewData["atualizar"] = "Atualizar Produto";
 
     
 }
 <div class="container ">
-    <form asp-controller="Produto" asp-action="Atualizar">
-        <div class="form-group col-6 m-auto ">
-            <h3><span class="badge badge-light text-center">@ViewData["atualizar"]</span></h3>
+    <form   asp-controller="Produto"  asp-action="Atualizar">
+        <div class="form-group col-6 m-auto border " style="border-radius:10px; padding:10px;">
+            <h3 class="text-center"><span class="badge badge-light text-center">@ViewData["atualizar"]</span></h3>
             <br />
             <label for="formGroupExampleInput">Produto</label>
-            <input type="text" class="form-control" asp-for="Nome" name="produto.Nome" id="formGroupExampleInput" placeholder="Nome do Produto">
+            <input type="text" class="form-control" asp-for="Produto.ProdutoId" id="formGroupExampleInput" placeholder="@Model.Produto.ProdutoId" disabled><br />
+            @*<input type="text" class="form-control" asp-for="Nome" name="produto.Nome" id="formGroupExampleInput" placeholder="Nome do Produto">*@
+            <ejs-textbox id="Nome" placeholder="Nome Produto" cssClass="e-outline" floatLabelType="Auto" ejs-for="Produto.Nome"></ejs-textbox>
+        
             <br />
-            <label for="formGroupExampleInput">Descrição</label>
-            <input type="text" class="form-control" asp-for="Descricao" name="produto.Descricao" id="formGroupExampleInput" placeholder="Descrição do Produto">
+
+            @*<ejs-numerictextbox ejs-for="ProdutoId" id="ProdutoId" placeholder="Nome Produto"></ejs-numerictextbox>*@
             <br />
-            <label for="formGroupExampleInput">Caqtegoria</label><br />
+
+            @*<label for="formGroupExampleInput">Descrição</label>
+        <input type="text" class="form-control" asp-for="Descricao" name="produto.Descricao" id="formGroupExampleInput" placeholder="Descrição do Produto">*@
+           <ejs-textbox id="Descricao" placeholder="Descricao" cssClass="e-outline" floatLabelType="Auto" ejs-for="Produto.Descricao"></ejs-textbox>
+            <br />   <br />
+            <ejs-numerictextbox id="Preco" placeholder="Preco" cssClass="e-outline" floatLabelType="Auto" ejs-for="Produto.Preco"></ejs-numerictextbox><br />
+            <label for="formGroupExampleInput">Categoria</label><br />
             <select class="form-control" id="categoria" name="produto.CategoriaId">
                 @foreach (var categoria in ViewBag.Categorias)
                 {
@@ -24,32 +33,131 @@
                     <option value="@categoria.CategoriaId" selected="">@categoria.Descricao</option>
                 }
             </select>
+
+
+
             @*<select id="select1"  asp-items="@(new SelectList(ViewBag.Categorias,"CategoriaId","Descricao"))">
             <option asp-for="Categoria.CategoriaId" selected disabled>--Select--</option>
         </select>*@
 
 
             <br />
-            <label for="formGroupExampleInput">Preco</label>
-            <input type="text" class="form-control" name="produto.Preco" asp-for="Preco" id="formGroupExampleInput" placeholder="Preço do Produto">
-            <br />
             <label for="formGroupExampleInput">Fornecedor</label><br />
             @*<input type="text" class="form-control" asp-for="FornecedorId" id="formGroupExampleInput" placeholder="-Fornecedor do Produto-">*@
-
-
             <select class="form-control" id="Fornecedor" name="produto.FornecedorId">
                 @foreach (var fornecedor in ViewBag.Fornecedor)
                 {
 
-                    <option value="@fornecedor.FornecedorId" selected="">@fornecedor.Empresa</option>
+                    <option value="@fornecedor.FornecedorId" selected="">@fornecedor.nome</option>
                 }
             </select>
             <br />
             <div class="form-group  text-center">
-                <input type="submit" value="Atualizar" class="btn btn-primary text-center p-2 col-4" />
+                <input type="submit" value="Atualizar" asp-action="Atualizar" asp-controller="Produto" class="btn btn-primary text-center p-2 col-4" />
                 <input type="submit" value="Voltar" class="btn btn-dark text-center p-2 col-4" asp-action="Index" asp-controller="Produto" />
             </div>
         </div>
        
     </form>
 </div>
+
+
+@*@section Scripts {
+<script type="text/javascript">
+    var editObj, numericObj, maskObj;
+    function editorCreated() {
+        editObj = this;
+    }
+
+    function numericCreated() {
+        numericObj = this;
+    }
+
+    function maskCreated() {
+        maskObj = this;
+    }
+
+    // Change event funtion for DropDownList component
+    function changeEditorMode(e) {
+        editObj.mode = numericObj.mode = maskObj.mode = e.itemData.value;
+    }
+
+    // Change event funtion for DropDownList component
+    function onEditableOn(e) {
+        var val = e.itemData.value;
+        if (val === 'Double Click') {
+            val = 'DblClick'
+        } else if (val === 'Edit Icon Click') {
+            val = 'EditIconClick'
+        }
+        editObj.editableOn = numericObj.editableOn = maskObj.editableOn = val;
+    }
+
+    function onChange(args) {
+        editObj.showButtons = numericObj.showButtons = maskObj.showButtons = args.checked;
+    }
+
+    function onChangeEnable(args) {
+        editObj.disabled = numericObj.disabled = maskObj.disabled = args.checked;
+    }
+    document.getElementById('right-pane').onscroll = function () {
+        var mode = document.getElementById("editorMode");
+        if (mode.ej2_instances[0].value === 'Inline') { return; }
+        if (editObj.element.querySelectorAll('.e-editable-open').length > 0)
+            editObj.enableEditMode = false;
+        if (numericObj.element.querySelectorAll('.e-editable-open').length > 0)
+            numericObj.enableEditMode = false;
+        if (maskObj.element.querySelectorAll('.e-editable-open').length > 0)
+            maskObj.enableEditMode = false;
+    }
+    </script>
+}
+
+<style>
+    .inplace-control-section.default_layout .e-inplaceeditor .e-editable-component .e-clear-icon-hide,
+    .e-inplaceeditor-tip .e-editable-component .e-input-group .e-clear-icon.e-clear-icon-hide {
+        display: block;
+        visibility: hidden;
+    }
+
+
+   .inplace-control-section.default_layout .e-inplaceeditor .e-editable-component .e-clear-icon-hide,
+    .e-inplaceeditor-tip .e-editable-component .e-input-group .e-clear-icon.e-clear-icon-hide {
+        display: block;
+        visibility: hidden;
+    }
+
+
+
+    .inplace-control-section.default_layout .control_wrapper .control-center {
+        text-align: center;
+    }
+
+    .inplace-control-section.default_layout .control_wrapper table td .control-label {
+        margin-bottom: 0px;
+    }
+
+    .inplace-control-section.default_layout .e-inplaceeditor {
+        height: auto;
+    }
+
+    .property-section table td {
+        width: 50%;
+    }
+
+    @@media (max-width: 1200px) {
+        .inplace-control-section.default_layout {
+            width: 100%;
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .inplace-control-section .control_wrapper table tr td:nth-child(1) {
+            width: 130px;
+        }
+
+        .inplace-control-section .control_wrapper table tr td:nth-child(2) {
+            width: 200px;
+        }
+    }
+</style>*@

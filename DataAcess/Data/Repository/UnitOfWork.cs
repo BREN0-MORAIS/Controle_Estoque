@@ -7,13 +7,13 @@
         {
             _db = db;
             Categoria = new CategoriaRepository(_db);
-            Estoque = new EstoqueRepository(_db);
+ 
             Fornecedor = new FornecedoresRepository(_db);
             Produto = new ProdutoRepository(_db);
         }
         public ICategoriaRepository Categoria { get; }
 
-        public IEstoqueRepository Estoque { get; }
+
 
         public IFornecedoresRepository Fornecedor { get; }
 

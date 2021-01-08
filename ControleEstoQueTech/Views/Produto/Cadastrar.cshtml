@@ -9,8 +9,10 @@
             <br />
             <label for="formGroupExampleInput">Descrição</label>
             <input type="text" class="form-control" asp-for="Descricao" name="produto.Descricao" id="formGroupExampleInput" placeholder="Descrição do Produto">
+            <label for="formGroupExampleInput">Quantidade em Estoque</label>
+            <input type="text" class="form-control" name="produto.Estoque.Quantidade" id="formGroupExampleInput" placeholder="Descrição do Produto">
             <br />
-            <label for="formGroupExampleInput">Caqtegoria</label><br />
+            <label for="formGroupExampleInput">Categoria</label><br />
             <select class="form-control" id="categoria" name="produto.CategoriaId">
                 @foreach (var categoria in ViewBag.Categorias)
                 {
@@ -35,7 +37,7 @@
                 @foreach (var fornecedor in ViewBag.Fornecedor)
                 {
 
-                    <option value="@fornecedor.FornecedorId" selected="">@fornecedor.Empresa</option>
+                    <option value="@fornecedor.FornecedorId" selected="">@fornecedor.Nome</option>
                 }
             </select>
             <br />

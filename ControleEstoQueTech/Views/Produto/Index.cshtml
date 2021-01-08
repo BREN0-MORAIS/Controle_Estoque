@@ -1,58 +1,75 @@
-﻿@model IEnumerable<Produto>
+﻿@model GeralVM
 @{
     Layout = "_Layout";
 }
+
+
 <a type="button" class="btn btn-primary" asp-controller="Produto" asp-action="Cadastrar">Cadastrar</a>
 <br />
 <br />
-<table class="table">
-    <thead class="thead-dark">
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Código</th>
-            <th scope="col">Produto</th>
-            <th scope="col">Descrição</th>
-            <th scope="col">Categoria</th>
-            <th scope="col">Preço</th>
-            <th scope="col">Fornecedor</th>
-            <th scope="col">Ações</th>
-        </tr>
-    </thead>
 
-    <tbody>
-        @foreach (var item in Model)
-        {
+<ejs-grid id="Grid" dataSource="@Model.Produtos" toolbar="@(new List<string>() { "Search"})" allowPaging="true">
+    <e-grid-pagesettings pageSize="5">
+    </e-grid-pagesettings>
+<e-grid-searchsettings fields="@(new string[] { "ProdutoId","Nome","Descricao","Categoria.Descricao","Preco","Fornecedor.Empresa"})"></e-grid-searchsettings>
+<e-grid-columns>
+    <e-grid-column field="ProdutoId" headerText="Código" textAlign="Center" width="120"></e-grid-column>
+    <e-grid-column field="Nome" headerText="Produto" width="150" textAlign="Center"></e-grid-column>
+    <e-grid-column field="Descricao" headerText="Decriçao" width="130" textAlign="Center" format="yMd"></e-grid-column>
+    <e-grid-column field="Categoria.Descricao" headerText="Categoria" width="120" textAlign="Center"></e-grid-column>
+    <e-grid-column field="Preco" headerText="Preço" width="120" textAlign="Center"></e-grid-column>
+    <e-grid-column field="Fornecedor.Empresa" headerText="Fornecedor" width="120" textAlign="Center"></e-grid-column>
+
+    <e-grid-column template="
+                       <a type='button' class='btn btn-danger m-1' href='/Produto/Excluir?ProdutoId=${ProdutoId}'>Excluir</a>
+                       <a type='button' class='btn btn-primary m-1' href='/Produto/Edit?ProdutoId=${ProdutoId}'>Editar</a>
+                       <a type='button' class='btn btn-primary' href='/Produto/Info?ProdutoId=${ProdutoId}'>Info</a>
+                       "></e-grid-column>
+
+</e-grid-columns>
+</ejs-grid>
+
+
+@*<br />
+    <br />
+    <table  class="ex table">
+        <thead class="thead-dark">
             <tr>
-                <th scope="row">1</th>
-                <td>@item.ProdutoId</td>
-                <td>@item.Nome</td>
-                <td>@item.Descricao</td>
-                <td>@item.Categoria.Descricao</td>
-                <td>@item.Preco</td>
-                <td>@item.Fornecedor.Empresa</td>
-                <td>
-                    <a type="button" asp-route-ProdutoId="@item.ProdutoId" asp-action="Edit" class="btn btn-primary">Editar</a>
-                    <a type="button" id="Salvar" asp-route-ProdutoId="@item.ProdutoId" asp-action="Excluir" onclick="Sucesso()" class="btn btn-danger">Excluir</a>
-                    <a type="button" asp-route-ProdutoId="@item.ProdutoId" asp-action="Info" class="btn btn-primary">Info</a>
-                </td>
-
+                <th scope="col">#</th>
+                <th scope="col">Código</th>
+                <th scope="col">Produto</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Fornecedor</th>
+                <th scope="col">Ações</th>
             </tr>
-        }
-    </tbody>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model.Produtos)
+            {
+                <tr>
+                    <th scope="row">1</th>
+                    <td>@item.ProdutoId</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Descricao</td>
+                    <td>@item.Categoria.Descricao</td>
+                    <td>@item.Preco</td>
+                    <td>@item.Fornecedor.Empresa</td>
+                    <td>
+                        <a type="button" asp-route-ProdutoId="@item.ProdutoId" asp-action="Edit" class="btn btn-primary">Editar</a>
+                        <a type="button" id="Salvar" asp-route-ProdutoId="@item.ProdutoId" asp-action="Excluir" onclick="Sucesso()" class="btn btn-danger">Excluir</a>
+                        <a type="button" asp-route-ProdutoId="@item.ProdutoId" asp-action="Info" class="btn btn-primary">Info</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
 
 
 
-</table>
-<script src="~/lib/jquery/dist/jquery.js"></script>
-<script type="text/javascript">
-    $('#Salvar').click(function () {
-        var url = "/Produto/Index";
-        $.post(url, { Nome: nome }, function (data) {
-            $("#msg").html(data);
-        });
-    })
-</script>
-
+    </table>*@
 
 
 
