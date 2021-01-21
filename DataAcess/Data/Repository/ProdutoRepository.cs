@@ -5,84 +5,94 @@ using System.Linq;
 
 namespace DataAcess
 {
-    public class ProdutoRepository : IProdutoRepository
+    public class ProdutoRepository : Repository<Produto>, IProdutoRepository
     {
-        private readonly AppDataContext _context;
+        private readonly AppDataContext _db;
 
-       public ProdutoRepository(AppDataContext context)
+       public ProdutoRepository(AppDataContext db):base(db)
         {
-            _context = context;
-        }
-        public void Add(Produto entity)
-        {
-            _context.Add(entity);
-            
+            this._db = db;
         }
 
-        public IEnumerable<Produto> GetAll()
-        {
-            IEnumerable<Produto> produto  = _context.Produtos.Include("Fornecedor").Include("Categoria").ToList();
-
-            return produto;
-        }
-   
-       public Produto Get(Produto produto)
-        {
-            Produto pro = GetId(produto);
-
-            return pro;
-            
-        }
-
-       public Produto GetId(Produto produto)
-        {
-            var buscar =_context.Produtos.Include("Fornecedor").Include("Categoria").First(a => a.ProdutoId == produto.ProdutoId );
-
-            return buscar;
-        }   
- 
-
-       public void Remove(Produto produto)
-        {
-           
-
-            _context.Remove(GetId(produto));
-        }
-       
-       public void Save()
-        {
-            _context.SaveChanges();
-        }
-       
-       public void Delete(Produto entity)
+        public void Update(int entity)
         {
             throw new NotImplementedException();
         }
-       
-       
- 
-       
-       public void Update(Produto entity)
-        {
-            _context.Update(entity);
-        }
-        public Produto GetId(int produto)
-        {
-            var buscar = _context.Produtos.Include("Fornecedor").Include("Categoria").First(a => a.ProdutoId == produto);
 
-            return buscar;
-        }
-        public void Update(int entity)
+        Produto IProdutoRepository.Get(Produto entity)
         {
-            _context.Update(GetId(entity));
+            throw new NotImplementedException();
         }
+        // public void Add(Produto entity)
+        // {
+        //     _context.Add(entity);
+
+        // }
+
+        // public IEnumerable<Produto> GetAll()
+        // {
+        //     IEnumerable<Produto> produto  = _context.Produtos.Include("Fornecedor").Include("Categoria").ToList();
+
+        //     return produto;
+        // }
+
+        //public Produto Get(Produto produto)
+        // {
+        //     Produto pro = GetId(produto);
+
+        //     return pro;
+
+        // }
+
+        //public Produto GetId(Produto produto)
+        // {
+        //     var buscar =_context.Produtos.Include("Fornecedor").Include("Categoria").First(a => a.ProdutoId == produto.ProdutoId );
+
+        //     return buscar;
+        // }   
 
 
-        public void Save(Produto entity)
-        {
-            _context.SaveChanges();
-        }
-       
-     
+        //public void Remove(Produto produto)
+        // {
+
+
+        //     _context.Remove(GetId(produto));
+        // }
+
+        //public void Save()
+        // {
+        //     _context.SaveChanges();
+        // }
+
+        //public void Delete(Produto entity)
+        // {
+        //     throw new NotImplementedException();
+        // }
+
+
+
+
+        //public void Update(Produto entity)
+        // {
+        //     _context.Update(entity);
+        // }
+        // public Produto GetId(int produto)
+        // {
+        //     var buscar = _context.Produtos.Include("Fornecedor").Include("Categoria").First(a => a.ProdutoId == produto);
+
+        //     return buscar;
+        // }
+        // public void Update(int entity)
+        // {
+        //     _context.Update(GetId(entity));
+        // }
+
+
+        // public void Save(Produto entity)
+        // {
+        //     _context.SaveChanges();
+        // }
+
+
     }
 }

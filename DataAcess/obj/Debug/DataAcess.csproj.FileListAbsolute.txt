@@ -89,3 +89,7 @@ C:\Users\55659\source\repos\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.cs
 C:\Users\55659\source\repos\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.dll
 C:\Users\55659\source\repos\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.pdb
 C:\Users\55659\source\repos\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.csprojAssemblyReference.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.csprojAssemblyReference.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.csproj.CoreCompileInputs.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.pdb

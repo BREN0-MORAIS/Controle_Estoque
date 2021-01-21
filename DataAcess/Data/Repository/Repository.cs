@@ -1,35 +1,46 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DataAcess
 {
-    public class Repository<T>: IRepository<T>
+    public class Repository<T>: IRepository<T> where T : class
     {
-        private readonly AppDataContext _Context;
+        private readonly AppDataContext _db;
+        internal DbSet<T> dbSet;
 
         public Repository(AppDataContext context)
         {
-            _Context = context;
+            _db = context;
+            this.dbSet = context.Set<T>();
         }
 
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Add(entity);
         }
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            //dbSet.Remove(entity);
         }
 
-        public void Get(T entity)
+        public void Remove(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Remove(entity);
+        }
+
+
+        public void Get(int id)
+        {
+           
         }
 
         public IEnumerable<T> GetAll()
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = dbSet;
+            return query.ToList();
         }
 
         public T GetId(T entity)
@@ -37,14 +48,10 @@ namespace DataAcess
             throw new NotImplementedException();
         }
 
-        public void Remove(T Entity)
-        {
-            throw new NotImplementedException();
-        }
 
         public void Save()
         {
-            _Context.SaveChanges();
+            _db.SaveChanges();
         }
 
         public void Update(T entity)
