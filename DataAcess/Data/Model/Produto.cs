@@ -30,6 +30,7 @@ namespace DataAcess
         public Fornecedor Fornecedor { get; set; }
         public int? Quantidade { get; set; }
         public int? Status { get; set; }
+        public int Estoque { get; set; }
 
     }
 }

@@ -5,7 +5,10 @@ namespace DataAcess
     public interface IProdutoRepository : IRepository<Produto>
     {
          void Update(int entity);
-         Produto Get(Produto entity);
+
+        Produto Get(int id);
+
+
         IEnumerable<Produto> GetAll();
     }
 }

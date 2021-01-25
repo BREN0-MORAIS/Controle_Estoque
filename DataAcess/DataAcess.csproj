@@ -179,24 +179,18 @@
     <Compile Include="Data\Repository\ProdutoRepository.cs" />
     <Compile Include="Data\Repository\Repository.cs" />
     <Compile Include="Data\Repository\UnitOfWork.cs" />
-    <Compile Include="Migrations\20201231171700_Initi.cs" />
-    <Compile Include="Migrations\20201231171700_Initi.designer.cs">
-      <DependentUpon>20201231171700_Initi.cs</DependentUpon>
+    <Compile Include="Data\Validar.cs" />
+    <Compile Include="Migrations\20210124220910_init3.cs" />
+    <Compile Include="Migrations\20210124220910_init3.designer.cs">
+      <DependentUpon>20210124220910_init3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20201231172459_Initial.cs" />
-    <Compile Include="Migrations\20201231172459_Initial.designer.cs">
-      <DependentUpon>20201231172459_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20210107013228_dbTech.cs" />
-    <Compile Include="Migrations\20210107013228_dbTech.designer.cs">
-      <DependentUpon>20210107013228_dbTech.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20210108011109_Initial02.cs" />
-    <Compile Include="Migrations\20210108011109_Initial02.designer.cs">
-      <DependentUpon>20210108011109_Initial02.cs</DependentUpon>
+    <Compile Include="Migrations\20210124224352_init4.cs" />
+    <Compile Include="Migrations\20210124224352_init4.designer.cs">
+      <DependentUpon>20210124224352_init4.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AppDataContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Uteis\SD.cs" />
     <Compile Include="ViewModel\GeralVM.cs" />
   </ItemGroup>
   <ItemGroup>

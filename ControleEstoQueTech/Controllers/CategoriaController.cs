@@ -1,7 +1,7 @@
 ﻿using DataAcess;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ControleEstoQueTech.Controllers
+namespace ControleEstoQueTech
 {
     public class CategoriaController : Controller
     {
@@ -22,6 +22,10 @@ namespace ControleEstoQueTech.Controllers
         {
             _categoria.Add(categoria);
             _categoria.Save();
+
+            SD.MSG_SUCESS = "Sucesso ao Salvar Categoria";
+            ViewData["Sucess"] = SD.MSG_SUCESS;
+
             return View("Index");
         }
         public ActionResult Deletar()

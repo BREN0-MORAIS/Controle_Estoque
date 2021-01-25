@@ -9,7 +9,7 @@ namespace DataAcess
     {
         private readonly AppDataContext _db;
 
-       public ProdutoRepository(AppDataContext db):base(db)
+        public ProdutoRepository(AppDataContext db) : base(db)
         {
             this._db = db;
         }
@@ -19,9 +19,9 @@ namespace DataAcess
             throw new NotImplementedException();
         }
 
-        Produto IProdutoRepository.Get(Produto entity)
+        public Produto Get(int id)
         {
-            throw new NotImplementedException();
+            return _db.Produtos.First(a => a.ProdutoId == id);
         }
         // public void Add(Produto entity)
         // {

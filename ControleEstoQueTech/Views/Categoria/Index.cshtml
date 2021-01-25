@@ -1,27 +1,49 @@
 ﻿@model Categoria
-<div class="container ">
-    <form asp-controller="Categoria" asp-action="AdicionarCategoria">
-        <div class="form-group col-6 m-auto ">
-            <h3><span class="badge badge-light text-center">Cadastrar Categoria</span></h3>
-            <br />
-            <label for="formGroupExampleInput">Nome Categoria</label>
-            <input type="text" class="form-control" asp-for="Descricao" id="formGroupExampleInput" placeholder="Nome do Categoria">
-            <br />
-            <div class="form-group  text-center">
-                <input type="submit" value="Salvar" class="btn btn-primary text-center p-2 col-4" />
-                <input type="submit" value="Voltar" class="btn btn-dark text-center p-2 col-4" onclick="Sucesso()" asp-action="Index" asp-controller="Categoria" />
-                <br />
-                <br />
-                <input type="submit" value="Visualizar Categorias" class="btn btn-success text-center p-2 col-4" asp-action="Deletar" asp-controller="Categoria" />
+    <div class="container ">
+        @if (SD.MSG_SUCESS != null)
+        {
+        <div class="alert alert-success .Close">
+            <strong>@ViewData["Sucess"]</strong> <span class="float-right">X</span>
+        </div>
+        }
+
+                <form asp-controller="Categoria" asp-action="AdicionarCategoria">
+                    <div class="form-group col-6 m-auto ">
+                        <h3><span class="badge badge-light text-center">Cadastrar Categoria</span></h3>
+                        <br />
+                        <label for="formGroupExampleInput">Nome Categoria</label>
+                        <input type="text" class="form-control" asp-for="Descricao" id="formGroupExampleInput" placeholder="Nome do Categoria">
+                        <br />
+                        <div class="form-group  text-center">
+                            <input type="submit" value="Salvar" class="btn btn-primary text-center p-2 col-4" />
+                            <input type="submit" value="Voltar" class="btn btn-dark text-center p-2 col-4" onclick="Sucesso()" asp-action="Index" asp-controller="Categoria" />
+                            <br />
+                            <br />
+                            <input type="submit" value="Visualizar Categorias" class="btn btn-success text-center p-2 col-4" asp-action="Deletar" asp-controller="Categoria" />
+
+                        </div>
+
+
+                    </div>
+
+
+                </form>
+
+
 
             </div>
 
-            
-        </div>
 
-        
-    </form>
+<script src="">
+    //$().ready(function () {
+    //    setTimeout(function () {
+    //        $('.alertar').hide();
+    //    },2500)
+    //}
 
- 
+    //);
 
-</div>
+    $('.Close').Click(function () {
+        $('.alert').hide();
+    });
+</script>

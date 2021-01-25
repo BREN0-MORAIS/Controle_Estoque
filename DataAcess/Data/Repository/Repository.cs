@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace DataAcess
 {
@@ -13,6 +14,8 @@ namespace DataAcess
         public Repository(AppDataContext context)
         {
             _db = context;
+
+            
             this.dbSet = context.Set<T>();
         }
 
@@ -20,21 +23,14 @@ namespace DataAcess
         {
             dbSet.Add(entity);
         }
-
-        public void Delete(T entity)
-        {
-            //dbSet.Remove(entity);
-        }
-
         public void Remove(T entity)
         {
             dbSet.Remove(entity);
         }
 
-
-        public void Get(int id)
+        public virtual T Get(int id)
         {
-           
+            return null;
         }
 
         public IEnumerable<T> GetAll()
@@ -43,7 +39,7 @@ namespace DataAcess
             return query.ToList();
         }
 
-        public T GetId(T entity)
+        public T GetId(int id)
         {
             throw new NotImplementedException();
         }
@@ -59,9 +55,6 @@ namespace DataAcess
             throw new NotImplementedException();
         }
 
-        T IRepository<T>.Get(T entity)
-        {
-            throw new NotImplementedException();
-        }
+     
     }
 }

@@ -4,7 +4,7 @@
 }
 
 
-<a type="button" class="btn btn-primary" asp-controller="Produto" asp-action="Cadastrar">Cadastrar</a>
+<a type="button" class="btn btn-primary" asp-controller="Produto" asp-action="UperSert">Cadastrar</a>
 <br />
 <br />
 
@@ -19,10 +19,11 @@
     <e-grid-column field="Categoria.Descricao" headerText="Categoria" width="120" textAlign="Center"></e-grid-column>
     <e-grid-column field="Preco" headerText="Preço" width="120" textAlign="Center"></e-grid-column>
     <e-grid-column field="Fornecedor.Empresa" headerText="Fornecedor" width="120" textAlign="Center"></e-grid-column>
+    <e-grid-column field="Estoque" headerText="Estoque" width="120" textAlign="Center"></e-grid-column>
 
     <e-grid-column template="
                        <a type='button' class='btn btn-danger m-1' href='/Produto/Excluir?ProdutoId=${ProdutoId}'>Excluir</a>
-                       <a type='button' class='btn btn-primary m-1' href='/Produto/Edit?ProdutoId=${ProdutoId}'>Editar</a>
+                       <a type='button' class='btn btn-primary m-1' href='/Produto/UperSert/${ProdutoId}'>Editar</a>
                        <a type='button' class='btn btn-primary' href='/Produto/Info?ProdutoId=${ProdutoId}'>Info</a>
                        "></e-grid-column>
 

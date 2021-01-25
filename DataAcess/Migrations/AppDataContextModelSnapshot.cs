@@ -64,6 +64,9 @@ namespace DataAcess.Migrations
                     b.Property<string>("Descricao")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Estoque")
+                        .HasColumnType("int");
+
                     b.Property<int?>("FornecedorId")
                         .IsRequired()
                         .HasColumnType("int");
