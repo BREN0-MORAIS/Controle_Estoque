@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace DataAcess
 {
@@ -8,7 +10,6 @@ namespace DataAcess
 
         Produto Get(int id);
 
-
-        IEnumerable<Produto> GetAll();
+        IEnumerable<Produto> GetAll(Expression<Func<Produto,bool>> a);
     }
 }

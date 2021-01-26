@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace DataAcess
 {
@@ -23,6 +24,13 @@ namespace DataAcess
         {
             return _db.Produtos.First(a => a.ProdutoId == id);
         }
+
+        //public IEnumerable<Produto> GetAll(Expression<Func<Produto, bool>> a )
+        //{
+        //    var obj = _db.Produtos.Where(a).ToList();
+
+        //    return obj;
+        //}
         // public void Add(Produto entity)
         // {
         //     _context.Add(entity);

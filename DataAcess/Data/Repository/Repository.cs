@@ -14,8 +14,6 @@ namespace DataAcess
         public Repository(AppDataContext context)
         {
             _db = context;
-
-            
             this.dbSet = context.Set<T>();
         }
 
@@ -39,22 +37,22 @@ namespace DataAcess
             return query.ToList();
         }
 
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> a)
+        {
+            return dbSet.Where(a);
+        }
+
         public T GetId(int id)
         {
             throw new NotImplementedException();
         }
-
-
         public void Save()
         {
             _db.SaveChanges();
         }
-
         public void Update(T entity)
         {
             throw new NotImplementedException();
         }
-
-     
     }
 }

@@ -62,7 +62,7 @@ namespace ControleEstoQueTech
          
             if (Id > 0)
             {
-                   Produto obj = _produto.Get(Id);
+                Produto obj = _produto.Get(Id);
                 return View(obj);
             }
             return View();
