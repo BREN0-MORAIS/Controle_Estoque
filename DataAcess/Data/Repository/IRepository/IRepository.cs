@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace DataAcess
 {
@@ -10,5 +12,6 @@ namespace DataAcess
          T GetId(int i);
          void Update(T entity);
          void Save();
+         IEnumerable<T> GetAll(Expression<Func<T, bool>> a);
     }
 }
