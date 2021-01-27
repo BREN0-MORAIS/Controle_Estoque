@@ -1,4 +1,6 @@
-﻿<div class="card w-75 m-auto">
+﻿@model GeralVM
+
+<div class="card w-75 m-auto">
 
     <div class="card-header header-elements-inline">
         <h5 class="card-title">Cadastrar Produto</h5>
@@ -33,6 +35,11 @@
                 <div class="form-group col-6">
                     <label>Categoria</label>
                     <input type="text" class="form-control" placeholder="Categoria do  Produto">
+
+                    @*<select asp-for="Categoria.CategoriaId" asp-items="@Model.Categorias" class="form-control">
+                        <option disabled>--Selecione uma Agência--</option>
+                    </select>*@
+                 
                 </div>
 
                 <div class="form-group col-3">

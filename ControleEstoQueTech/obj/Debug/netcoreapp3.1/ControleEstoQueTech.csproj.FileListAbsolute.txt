@@ -148,9 +148,6 @@ F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.
 F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.csprojAssemblyReference.cache
 F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.AssemblyInfoInputs.cache
 F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.AssemblyInfo.cs
-F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.csproj.CoreCompileInputs.cache
-F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.MvcApplicationPartsAssemblyInfo.cs
-F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.MvcApplicationPartsAssemblyInfo.cache
 F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.RazorAssemblyInfo.cache
 F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.RazorAssemblyInfo.cs
 F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.TagHelpers.input.cache
@@ -271,3 +268,17 @@ E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\
 E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.dll
 E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.pdb
 E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.genruntimeconfig.cache
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.Mvc.xml
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.WebPages.xml
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.xml
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.Razor.xml
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.xml
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.csproj.CoreCompileInputs.cache
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.MvcApplicationPartsAssemblyInfo.cs
+F:\_Código Fonte\ControleEstoQueTech\ControleEstoQueTech\obj\Debug\netcoreapp3.1\ControleEstoQueTech.MvcApplicationPartsAssemblyInfo.cache

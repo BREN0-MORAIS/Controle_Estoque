@@ -271,3 +271,16 @@ E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\bin\Debug\ru\M
 E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 E:\_DEV BRENO-MORAIS\_Código-Fonte\ControleEstoQueTech\DataAcess\obj\Debug\DataAcess.csproj.CopyComplete
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.Helpers.dll
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.Mvc.dll
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.Razor.dll
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.WebPages.dll
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.WebPages.Razor.dll
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.Helpers.xml
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.Mvc.xml
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.Razor.xml
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.WebPages.xml
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\_Código Fonte\ControleEstoQueTech\DataAcess\bin\Debug\System.Web.WebPages.Razor.xml

@@ -1,5 +1,6 @@
 ﻿using DataAcess;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -25,10 +26,13 @@ namespace ControleEstoQueTech
         }
         public IActionResult Index()
         {
+           
+
+
             var obj = new GeralVM()
             {
                 Produtos = _produto.GetAll(),
-                Categorias = _categoria.GetAll()
+                Categorias =a
             };
 
             ViewBag.data = _produto.GetAll();

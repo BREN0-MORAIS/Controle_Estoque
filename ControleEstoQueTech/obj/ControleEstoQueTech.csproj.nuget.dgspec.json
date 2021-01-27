@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {}
+    "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {}
   },
   "projects": {
-    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {
+    "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
+        "projectUniqueName": "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
         "projectName": "ControleEstoQueTech",
-        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
-        "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-        "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\obj\\",
+        "projectPath": "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
+        "packagesPath": "C:\\Users\\wcogeo\\.nuget\\packages\\",
+        "outputPath": "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wcogeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -28,16 +28,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
-          "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
-                "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
+              "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
+                "projectPath": "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
               }
             }
           }
@@ -50,8 +47,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.10, )"
@@ -95,15 +95,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
+    "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
       "restore": {
-        "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj",
+        "projectUniqueName": "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj",
         "projectName": "DataAcess",
-        "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
+        "projectPath": "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
       },
       "frameworks": {
         "net472": {}
