@@ -5557,6 +5557,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
               "projectPath": "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
@@ -5572,6 +5573,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNet.Mvc": {
             "target": "Package",
@@ -5620,7 +5622,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20614.14\\RuntimeIdentifierGraph.json"
       }
     }
   },
