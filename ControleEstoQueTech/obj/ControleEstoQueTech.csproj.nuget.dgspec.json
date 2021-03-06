@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {}
+    "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {}
   },
   "projects": {
-    "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {
+    "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
+        "projectUniqueName": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
         "projectName": "ControleEstoQueTech",
-        "projectPath": "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
-        "packagesPath": "C:\\Users\\wcogeo\\.nuget\\packages\\",
-        "outputPath": "F:\\_Código Fonte\\ControleEstoQueTech\\ControleEstoQueTech\\obj\\",
+        "projectPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\ControleEstoQueTech\\ControleEstoQueTech.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\ControleEstoQueTech\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wcogeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
-                "projectPath": "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
+              "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
+                "projectPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
               }
             }
           }
@@ -89,6 +89,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -101,11 +107,11 @@
         }
       }
     },
-    "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
+    "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj": {
       "restore": {
-        "projectUniqueName": "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj",
+        "projectUniqueName": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj",
         "projectName": "DataAcess",
-        "projectPath": "F:\\_Código Fonte\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
+        "projectPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj"
       },
       "frameworks": {
         "net472": {}
