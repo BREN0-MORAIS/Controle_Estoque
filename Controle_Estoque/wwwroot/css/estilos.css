@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Cores*/
+
+.BtnColorGreen{
+    color: white;
+background:#33CC00;
+}
+.HeaderNavDefault{
+    background-color: #169106;
+}
+
+.FontColorWhite {
+    color: white;
+}
+

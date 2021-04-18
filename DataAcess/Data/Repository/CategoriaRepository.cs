@@ -1,68 +1,31 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DataAcess.Data.Repository.IRepository;
+using DataAcess.Model;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Forms;
+using System.Text;
 
-namespace DataAcess
+
+namespace DataAcess.Data.Repository
 {
-    public class CategoriaRepository : Repository<Categoria>, ICategoriaRepository
+    public  class CategoriaRepository : Repository<Categoria>, ICategoriaRepository
     {
-        private readonly AppDataContext _db;
+        public readonly AppDataContext _db;
 
-        public CategoriaRepository(AppDataContext db):base(db)
+        public CategoriaRepository(AppDataContext db): base(db)
         {
-            _db = db;
+            this._db = db;
         }
-        //public IEnumerable<Categoria> categorias => _db.Categorias.ToList();
 
-        //public void Add(Categoria entity)
-        //{
-        //    _db.Add(entity);
-        //}
+        public IEnumerable<SelectListItem> GetCategoriaList()
+        {
+            return _db.Categorias.Select(i => new SelectListItem()
+            {
+                Text = i.Nome,
+                Value = i.Id.ToString()
+            });
+        }
 
-        //public void Delete(Categoria entity)
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-        //public Categoria Get(Categoria entity)
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-        //public IEnumerable<Categoria> GetAll()
-        //{
-        //   return _db.Categorias.ToList();
-        //}
-
-       
-        //public Categoria GetId(Categoria entity)
-        //{
-        //    var buscarId = _db.Categorias.FirstOrDefault(a => a.CategoriaId == entity.CategoriaId);
-
-        //    return buscarId;
-        //}
-
-        //public void Remove(Categoria Entity)
-        //{
-        //    Categoria buscar = GetId(Entity);
-
-        //    _db.Remove(buscar);
-
-        //}
-      
-
-        //public void Save()
-        //{
-        //    _db.SaveChanges();
-        //}
-
-        //public void Update(Categoria entity)
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-       
-    }
+}
 }

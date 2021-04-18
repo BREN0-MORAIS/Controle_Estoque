@@ -1,0 +1,84 @@
+﻿@model DataAcess.ViewModel.VMModalCadHome
+
+<div id="CadastroBairro" class="modal modalInputMaior">
+    <form asp-controller="Home" asp-action="Fornecedor" >
+        <div class="form-group row">
+            <label asp-for="Fornecedor.Nome">Nome</label>
+            <input asp-for="Fornecedor.Nome" class="form-control" /><br />
+            <label asp-for="Fornecedor.Email">E-mail</label>
+            <input asp-for="Fornecedor.Email" class="form-control" /><br />
+            <label asp-for="Fornecedor.Telefone">Telefone</label>
+            <input asp-for="Fornecedor.Telefone" class="form-control" /><br />
+            <button type="submit" class="btnModalSalvar">SALVAR</button>
+        </div>
+    </form>
+</div>
+
+<div id="CadastroCategoria" class="modal modalInputMenor">
+    <form asp-controller="Home" asp-action="Categoria">
+        <div class="form-group row">
+            <label>CATEGORIA</label>
+            <input asp-for="Categoria.Nome" class="form-control" min="5"/>
+          
+            <button type="submit" class="btnModalSalvar">SALVAR</button>
+        </div>
+    </form>
+</div>
+
+<div id="CadastroTipoUnitario" class="modal modalInputMenor">
+    <form asp-controller="Home" asp-action="TipoUnitario">
+        <div class="form-group row">
+            <label>TIPO UNITARIO</label>
+            <input asp-for="TipoUnitario.Nome" class="form-control" />
+            <button type="submit" class="btnModalSalvar">SALVAR</button>
+        </div>
+    </form>
+
+
+</div>
+
+
+
+<style>
+    .modalInputMenor {
+        width: 23%;
+        height: 23%;
+        margin: 0;
+        padding: 21px;
+        max-width: 743px;
+    }
+
+    .heigth63 {
+        height: 63px;
+    }
+
+    .Width144 {
+        width: 144px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .modal a.close-modal {
+        top: 3.5px;
+        margin-right: 19px;
+    }
+
+    .btnModalSalvar {
+        MARGIN-TOP: 10PX;
+        PADDING: 8PX;
+        BACKGROUND-COLOR: #009e61;
+        BORDER: NONE;
+        COLOR: WHITE;
+        width: 100%;
+    }
+
+    .modalInputMaior {
+        width: 43%;
+        height: 55%;
+        margin: 0;
+        padding: 21px;
+        max-width: 743px;
+    }
+</style>

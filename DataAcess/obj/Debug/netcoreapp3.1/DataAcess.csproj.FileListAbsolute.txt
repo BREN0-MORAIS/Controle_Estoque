@@ -1,0 +1,12 @@
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.deps.json
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.runtimeconfig.json
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.runtimeconfig.dev.json
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\bin\Debug\netcoreapp3.1\DataAcess.pdb
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.csprojAssemblyReference.cache
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.AssemblyInfoInputs.cache
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.AssemblyInfo.cs
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.csproj.CoreCompileInputs.cache
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.pdb
+D:\_DESENVOLVIMENTO\CODIGO FONTE\Controle_Estoque\Controle_Estoque\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.genruntimeconfig.cache

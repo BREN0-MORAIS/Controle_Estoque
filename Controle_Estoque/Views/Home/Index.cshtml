@@ -1,0 +1,17 @@
+﻿
+
+@if (TempData["M_Error"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["M_Error"]
+    </div>
+}
+else if (TempData["M_Sucess"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["M_Sucess"]
+    </div>
+}
+<section>
+    <h1 style="color:#339999 ; text-align: center;">CONTROLE DE ESTOQUE TECH</h1>
+</section>
