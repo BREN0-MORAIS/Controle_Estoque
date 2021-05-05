@@ -30,6 +30,7 @@ namespace Controle_Estoque
             services.AddControllersWithViews();
 
             //usando o SQL server para fazer a conexão, a conexão estara no appsettings.json
+            services.AddDbContext<AppDataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
             services.AddDbContext<AppDataContext>(options => options.UseMySQL(Configuration.GetConnectionString("Default")));
 
             //injetando na classe startup

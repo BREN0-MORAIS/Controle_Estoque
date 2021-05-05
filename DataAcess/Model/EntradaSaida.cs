@@ -8,7 +8,6 @@ namespace DataAcess.Model
     public class EntradaSaida
     {
         public int Id { get; set; }
-     
         public virtual Produto Produto { get; set; }
         public int ProdutoId { get; set; }
         public DateTime Data { get; set; }

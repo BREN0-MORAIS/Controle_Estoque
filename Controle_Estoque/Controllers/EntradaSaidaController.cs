@@ -9,7 +9,7 @@ namespace Controle_Estoque.Controllers
 {
     public class EntradaSaidaController : Controller
     {
-       [ColaboradorAutorizacao]
+       //[ColaboradorAutorizacao]
         public IActionResult Index()
         {
             return View();
