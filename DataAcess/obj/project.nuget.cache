@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o6z1jpG0WtxN6nw32/E/rc+t4zTyNqOnCDIdALKoH/cEXmkDqFn1kizFtO05jNT5zLzxfrFLHSssGXSgY22bVw==",
+  "dgSpecHash": "5K+w8zWW8xqY/eo4SQSD8O1gDyb9Me1tInibOAXCfXvTdq9CM5h/P7W9yGF20/zn5mwu83PMsNDzCfCZz8481Q==",
   "success": true,
-  "projectFilePath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\Controle_Estoque\\Controle_Estoque\\Controle_Estoque\\DataAcess\\DataAcess.csproj",
+  "projectFilePath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\DataAcess\\DataAcess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

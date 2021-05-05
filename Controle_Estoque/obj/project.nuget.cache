@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hK11um8/eJRfFAvplGaK9ijpeLKAHlGmytybRl1c0cXtSdB1e2FiLh0nEowG36ICzEwvGjVhcCSTUCQWGLyoBA==",
+  "dgSpecHash": "4QXmtKYoJNHC9zjy1W6ZLYZ7aAIZMxGq2k23z4ajyKyzcbZASsSC0GVcFTldE2nfCUcEczdPmzvaq/BOQkg4OQ==",
   "success": true,
-  "projectFilePath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\Controle_Estoque\\Controle_Estoque\\Controle_Estoque\\Controle_Estoque\\Controle_Estoque.csproj",
+  "projectFilePath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\Controle_Estoque\\Controle_Estoque.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
