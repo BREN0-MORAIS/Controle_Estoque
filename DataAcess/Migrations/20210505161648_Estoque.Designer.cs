@@ -4,14 +4,16 @@ using DataAcess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DataAcess.Migrations
 {
     [DbContext(typeof(AppDataContext))]
-    partial class AppDataContextModelSnapshot : ModelSnapshot
+    [Migration("20210505161648_Estoque")]
+    partial class Estoque
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -87,26 +89,6 @@ namespace DataAcess.Migrations
                     b.HasIndex("ProdutoId");
 
                     b.ToTable("EntradaSaidas");
-                });
-
-            modelBuilder.Entity("DataAcess.Model.Estoque", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("ProdutoId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("QuantidadeEstoque")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProdutoId");
-
-                    b.ToTable("Estoques");
                 });
 
             modelBuilder.Entity("DataAcess.Model.Fornecedor", b =>
@@ -198,13 +180,6 @@ namespace DataAcess.Migrations
                         .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("DataAcess.Model.Estoque", b =>
-                {
-                    b.HasOne("DataAcess.Model.Produto", "Produto")
-                        .WithMany()
-                        .HasForeignKey("ProdutoId");
                 });
 
             modelBuilder.Entity("DataAcess.Model.Produto", b =>

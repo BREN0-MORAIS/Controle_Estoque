@@ -20,5 +20,6 @@ namespace DataAcess.Data
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<TipoUnitario> TipoUnitarios { get; set; }
         public DbSet <Colaborador> Colaboradores { get; set; }
+        public DbSet <Estoque> Estoques { get; set; }
     }
 }
