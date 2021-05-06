@@ -1,0 +1,8 @@
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\bin\Debug\netcoreapp3.1\Models.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\bin\Debug\netcoreapp3.1\Models.pdb
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\obj\Debug\netcoreapp3.1\Models.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Models\obj\Debug\netcoreapp3.1\Models.pdb

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataAcess.Migrations
 {
-    public partial class InitDataTwo : Migration
+    public partial class SqlServerModels : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -125,9 +125,34 @@ namespace DataAcess.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Estoques",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ProdutoId = table.Column<int>(nullable: true),
+                    QuantidadeEstoque = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Estoques", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Estoques_Produtos_ProdutoId",
+                        column: x => x.ProdutoId,
+                        principalTable: "Produtos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_EntradaSaidas_ProdutoId",
                 table: "EntradaSaidas",
+                column: "ProdutoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Estoques_ProdutoId",
+                table: "Estoques",
                 column: "ProdutoId");
 
             migrationBuilder.CreateIndex(
@@ -153,6 +178,9 @@ namespace DataAcess.Migrations
 
             migrationBuilder.DropTable(
                 name: "EntradaSaidas");
+
+            migrationBuilder.DropTable(
+                name: "Estoques");
 
             migrationBuilder.DropTable(
                 name: "Produtos");

@@ -31,7 +31,7 @@ namespace Controle_Estoque
 
             //usando o SQL server para fazer a conexão, a conexão estara no appsettings.json
             services.AddDbContext<AppDataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
-            services.AddDbContext<AppDataContext>(options => options.UseMySQL(Configuration.GetConnectionString("Default")));
+            //services.AddDbContext<AppDataContext>(options => options.UseMySQL(Configuration.GetConnectionString("Password=BRENOMORAIS;User ID=root;Initial Catalog=ControleEstoque;Data Source=127.0.0.1,3306")));
 
             //injetando na classe startup
             //services.AddScoped<IProdutoRepository, ProdutoRepository>();
