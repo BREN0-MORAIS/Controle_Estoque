@@ -191,6 +191,7 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Controle_Estoque.Views.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Controle_Estoque.Views.pdb
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Castle.Core.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
@@ -201,6 +202,7 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -238,7 +240,9 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\DataAcess.dll
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\DataAcess.pdb
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.pdb
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.csprojAssemblyReference.cache
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.AssemblyInfoInputs.cache
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.AssemblyInfo.cs
@@ -255,6 +259,7 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.RazorCoreGenerate.cache
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Razor\Views\Colaborador\Login.cshtml.g.cs
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Razor\Views\EntradaSaida\Index.cshtml.g.cs
+D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Razor\Views\Estoque\Index.cshtml.g.cs
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Razor\Views\Partial\_PartialModal.cshtml.g.cs
@@ -271,5 +276,3 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.pdb
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.genruntimeconfig.cache
-D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.dll
-D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.pdb

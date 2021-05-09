@@ -18,6 +18,7 @@ namespace DataAcess.Model
         public int EstoqueMinimo { get; set; }
         public virtual Categoria categoria { get; set; }
         public int CategoriaId { get; set; }
+     
 
     }
 }

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using DataAcess.Model;
+//using Microsoft.EntityFrameworkCore.Proxies;
 
 namespace DataAcess.Data
 {
@@ -11,7 +12,7 @@ namespace DataAcess.Data
 
         public AppDataContext(DbContextOptions options):base(options)
         {
-
+      
         }
 
         public DbSet<Categoria> Categorias { get; set; }
@@ -21,5 +22,10 @@ namespace DataAcess.Data
         public DbSet<TipoUnitario> TipoUnitarios { get; set; }
         public DbSet <Colaborador> Colaboradores { get; set; }
         public DbSet <Estoque> Estoques { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLazyLoadingProxies();
+        }
     }
 }

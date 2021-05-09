@@ -16,14 +16,17 @@ namespace Controle_Estoque.Controllers
         private IFornecedorRepository _fornecedor { get; set; }
         private ITipoUnitarioRepository _tipoUnitario { get; set; }
 
+        public IEstoqueRepository _estoqueRepository { get; set; }
+
         public AppDataContext _db { get; set; }
 
-        public ProdutoController(ICategoriaRepository categoria, AppDataContext db, IFornecedorRepository fornecedor, ITipoUnitarioRepository tipoUnitario, IProdutoRepository produto)
+        public ProdutoController(ICategoriaRepository categoria, AppDataContext db, IFornecedorRepository fornecedor, ITipoUnitarioRepository tipoUnitario, IProdutoRepository produto, IEstoqueRepository estoque)
         {
             _produto = produto;
             _Categoria = categoria;
             _fornecedor = fornecedor;
             _tipoUnitario = tipoUnitario;
+            _estoqueRepository = estoque;
             _db = db;
 
         }
@@ -31,16 +34,16 @@ namespace Controle_Estoque.Controllers
         {
             var obj = new VMModalCadHome
             {
-                Categoria = new Categoria(),
                 ListCategorias = _Categoria.GetCategoriaList(),
                 ListFornecedor = _fornecedor.GetDropDownList(),
                 ListTipoUnitario = _tipoUnitario.GetDropDownList(),
-                Produto = new Produto(),
+                Categoria = new  Categoria(),
                 Fornecedor = new Fornecedor(),
-                TipoUnitario = new TipoUnitario(),
-
+                Produto = new Produto(),
+                TipoUnitario = new TipoUnitario()
             };
 
+        
             return View(obj);
         }
 

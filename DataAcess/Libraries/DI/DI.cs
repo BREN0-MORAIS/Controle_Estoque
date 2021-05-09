@@ -27,6 +27,7 @@ namespace DataAcess
             services.AddScoped<ITipoUnitarioRepository, TipoUnitarioRepository > ();      
             services.AddScoped<IProdutoRepository, ProdutoRepository > ();
             services.AddScoped<IColaboradorRepository, ColaboradorRepository>();
+            services.AddScoped<IEstoqueRepository, EstoqueRepository>();
             services.AddScoped<Login>();
        
         }

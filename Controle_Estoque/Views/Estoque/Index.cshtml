@@ -1,0 +1,29 @@
+﻿
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Produto</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Fornecedor</th>
+            <th scope="col">Tipo Unitario</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.lista)
+        {
+        <tr>
+            <th scope="row">1</th>
+            <td>@item.Produto.Nome</td>
+            <td>@item.Produto.Descricao</td>
+            <td>@item.Produto.fornecedor.Nome</td>
+            <td>@item.Produto.tipoUnitario.Nome</td>
+            <td>@item.Produto.categoria.Nome</td>
+            <td>@item.QuantidadeEstoque</td>
+        </tr>
+        }
+    </tbody>
+</table>
