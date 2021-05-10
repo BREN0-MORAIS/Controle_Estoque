@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\breno\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Controle_Estoque\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Controle_Estoque\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-      "outputPath": "E:\\_DEV BRENO-MORAIS\\_Código-Fonte\\Controle_Estoque\\Models\\obj\\",
+      "projectPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "D:\\_DESENVOLVIMENTO\\CODIGO FONTE\\ControleEstoQueTech\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -36,8 +36,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "E:\\BIBLIOTECAS E DLLS\\FastReport-Dll": {},
-        "E:\\PRODUTIVIDADE-CODIGOS\\Fast-Report\\Nugets\\Core3": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,12 +63,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20614.14\\RuntimeIdentifierGraph.json"
       }
     }
   }
