@@ -37,3 +37,6 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\DataAcess\obj\Debug\netcore
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\DataAcess\bin\Debug\netcoreapp3.1\Models.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\DataAcess\bin\Debug\netcoreapp3.1\Models.pdb
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.csproj.CopyComplete
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\DataAcess\bin\Debug\netcoreapp3.1\Models.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\DataAcess\bin\Debug\netcoreapp3.1\Models.pdb
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\DataAcess\obj\Debug\netcoreapp3.1\DataAcess.csproj.CopyComplete

@@ -273,3 +273,5 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.genruntimeconfig.cache
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.pdb
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.pdb
