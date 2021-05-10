@@ -1,7 +1,7 @@
 ﻿@model VMModalCadHome
 
 <div id="CadastroBairro" class=" modalCadastro">
-    <form>
+    <form asp-action="Cadastrar" asp-controller="EntradaSaida">
         <div>
             <h3 style="background-color: #106b45; color: white; margin: 0; padding: 13px; text-align: center;">
                 ENTRADA E SAIDA DE PRODUTOS
@@ -12,27 +12,25 @@
         <div class="row " style="padding: 10px;">
             <div class="col-12 form-group">
                 <label>NOME DO PRODUTO</label>
-                <select class="form form-control">
-                    <option>JD Florianopolis</option>
-                    <option>JD união</option>
+                <select class="form form-control" asp-items="Model.ListProduto" asp-for="EntradaSaida.ProdutoId">
                 </select>
             </div>
         </div>
 
         <div class="row " style="padding: 10px;">
             <div class="col-3 form-group">
-                <label>ESTOQUE MÁXIMO</label>
-                <input class="margin9 form-control" type="date" name="" id="">
+                <label>DATA</label>
+                <input asp-for="EntradaSaida.Data"  class="margin9 form-control" type="date" >
             </div>
 
             <div class="col-3 form-group">
                 <label>QUANTIDADE</label>
-                <input class="margin9 form-control" type="number" name="" id="">
+                <input asp-for="EntradaSaida.Quantidade" class="margin9 form-control" type="number">
             </div>
 
             <div class="col-3 form-group">
                 <label>VALOR</label>
-                <input class="margin9 form-control" type="number" name="" id="">
+                <input asp-for="EntradaSaida.Preco" class="margin9 form-control" type="number" >
             </div>
 
             <div class="col-3 form-group">
@@ -43,29 +41,16 @@
 
         <div class="row " style="padding: 10px;">
 
-            <div class="col-4 form-group">
+            <div class="col-12 form-group" a>
                 <label>TIPO</label>
-                <select class="form form-control">
-                    <option>JD Florianopolis</option>
-                    <option>JD união</option>
+                <select class="form form-control" asp-for="EntradaSaida.Tipo">
+                    <option value="ENTRADA">ENTRADA</option>
+                    <option value="SAIDA">SAIDA</option>
                 </select>
             </div>
 
-            <div class="col-4 form-group">
-                <label>CATEGORIA</label>
-                <select class="form form-control">
-                    <option>JD Florianopolis</option>
-                    <option>JD união</option>
-                </select>
-            </div>
 
-            <div class="col-4 form-group">
-                <label>FORNECEDOR</label>
-                <select class="form form-control">
-                    <option>JD Florianopolis</option>
-                    <option>JD união</option>
-                </select>
-            </div>
+      
         </div>
 
 

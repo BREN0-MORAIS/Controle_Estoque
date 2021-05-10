@@ -15,14 +15,16 @@ namespace DataAcess.Model
         public decimal Preco { get; set; }
         public int TotalValor { get; set; }
 
+        public string Tipo { get; set; } //entrada e saida
+
         //public TipoUnitario TipoUnitario { get; set; }
         //public int TipoUnitarioId { get; set; }
-    
+
         //public Categoria Categoria { get; set; }
         //public int CategoriaId { get; set; }
-      
+
         //public Fornecedor Fornecedor { get; set; } 
-      
+
         //public int FornecedorId { get; set; }
     }
 }

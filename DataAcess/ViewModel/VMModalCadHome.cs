@@ -19,7 +19,8 @@ namespace DataAcess.ViewModel
         public Fornecedor Fornecedor { get; set; }
         public IEnumerable<SelectListItem> ListTipoUnitario { get; set; }
         public TipoUnitario TipoUnitario { get; set; }
-
+        public EntradaSaida EntradaSaida { get; set; }
+        public IEnumerable<SelectListItem> ListProduto { get; set; }
         public Produto Produto { get; set; }
     }
 }
