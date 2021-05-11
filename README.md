@@ -5,7 +5,7 @@
 <ul>
   <li>:heavy_check_mark:<b>Linguagem de Marcação</b> 
       <ul>
-        <li>XAML</li>
+        <li>HTML</li>
       </ul>
   </li>
    <li>:heavy_check_mark:<b>Linguagem de Programação</b>
