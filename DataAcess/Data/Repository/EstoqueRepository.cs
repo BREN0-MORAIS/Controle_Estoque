@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAcess.Data.Repository
@@ -21,5 +22,11 @@ namespace DataAcess.Data.Repository
             
         }
 
+        public Estoque Get(Expression<Func<Estoque, bool>> Logic)
+        {
+            return _db.Estoques.Where(Logic).FirstOrDefault();
+        }
+
+       
     }
 }

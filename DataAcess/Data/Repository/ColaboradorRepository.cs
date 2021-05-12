@@ -1,5 +1,4 @@
-﻿using DataAcess.Libraries;
-using DataAcess.Model;
+﻿using DataAcess.Model;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System;
 using System.Collections.Generic;

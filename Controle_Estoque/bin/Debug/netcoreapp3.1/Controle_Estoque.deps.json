@@ -37,6 +37,7 @@
           "Models": "1.0.0",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
           "Newtonsoft.Json": "12.0.3",
+          "Services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1947,6 +1948,18 @@
         },
         "compile": {
           "Models.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "DataAcess": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        },
+        "compile": {
+          "Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4625,6 +4638,11 @@
       "sha512": ""
     },
     "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

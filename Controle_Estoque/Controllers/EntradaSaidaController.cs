@@ -16,11 +16,13 @@ namespace Controle_Estoque.Controllers
     {
         private IProdutoRepository _repoProduto { get; set; }
         private IEntradaSaidaRepository _repoEntradaSaida { get; set; }
-      
-        public EntradaSaidaController(IProdutoRepository repoProduto, IEntradaSaidaRepository repoEntradaSaida)
+        private IEstoqueRepository _repoEstoque { get; set; }
+
+        public EntradaSaidaController(IProdutoRepository repoProduto, IEntradaSaidaRepository repoEntradaSaida, IEstoqueRepository repoEstoque)
         {
             _repoProduto = repoProduto;
             _repoEntradaSaida = repoEntradaSaida;
+            _repoEstoque = repoEstoque;
         }
 
         public IActionResult Index()
@@ -29,17 +31,46 @@ namespace Controle_Estoque.Controllers
             {
                 ListProduto = _repoProduto.GetDropDownList(),
                 EntradaSaida = new EntradaSaida(),
-                Produto= new Produto(),
+                Produto = new Produto(),
             };
 
             return View(obj);
-        } 
+        }
         public IActionResult Cadastrar(EntradaSaida entradaSaida)
         {
-           
+
             _repoEntradaSaida.Add(entradaSaida);
+          
+            var qtdEstoque = _repoEstoque.Get(a => a.ProdutoId == entradaSaida.ProdutoId);
 
+            if(qtdEstoque == null)
+            {
+                var objEstoque = new Estoque
+                {
+                    ProdutoId = entradaSaida.ProdutoId,
+                    QuantidadeEstoque = entradaSaida.Quantidade
+                };
 
+                _repoEstoque.Add(objEstoque);
+            }else if (entradaSaida.Tipo == "ENTRADA")
+            {
+                var objEstoque = new Estoque
+                {
+                    ProdutoId = entradaSaida.ProdutoId,
+                    QuantidadeEstoque = qtdEstoque.QuantidadeEstoque + entradaSaida.Quantidade
+                };
+            }
+            else
+            {
+                var objEstoque = new Estoque
+                {
+                    Id =  qtdEstoque.Id,
+                    ProdutoId = entradaSaida.ProdutoId,
+                    QuantidadeEstoque = qtdEstoque.QuantidadeEstoque - entradaSaida.Quantidade
+                };
+
+                _repoEstoque.Update(objEstoque);
+            }
             return RedirectToAction("Index", "Estoque");
         }
     }

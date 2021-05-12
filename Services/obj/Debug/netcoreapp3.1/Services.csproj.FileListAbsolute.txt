@@ -7,3 +7,17 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Services\obj\Debug\netcorea
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Services\obj\Debug\netcoreapp3.1\Services.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Services\obj\Debug\netcoreapp3.1\Services.pdb
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\bin\Debug\netcoreapp3.1\Services.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\bin\Debug\netcoreapp3.1\Services.pdb
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\obj\Debug\netcoreapp3.1\Services.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\obj\Debug\netcoreapp3.1\Services.pdb
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\bin\Debug\netcoreapp3.1\DataAcess.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\bin\Debug\netcoreapp3.1\Models.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\bin\Debug\netcoreapp3.1\DataAcess.pdb
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\bin\Debug\netcoreapp3.1\Models.pdb
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete

@@ -276,3 +276,10 @@ D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.dll
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.pdb
 D:\_DESENVOLVIMENTO\CODIGO FONTE\ControleEstoQueTech\Controle_Estoque\obj\Debug\netcoreapp3.1\Controle_Estoque.genruntimeconfig.cache
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Models.pdb
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\obj\Debug\netcoreapp3.1\Razor\Views\Estoque\Index.cshtml.g.cs
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Services.dll
+E:\_DEV BRENO-MORAIS\_Código-Fonte\Controle_Estoque\Controle_Estoque\bin\Debug\netcoreapp3.1\Services.pdb

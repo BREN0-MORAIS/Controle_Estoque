@@ -8,6 +8,7 @@ namespace DataAcess.Model
     {
         public int Id { get; set; }
         public virtual Produto Produto { get; set; }
+        public int ProdutoId { get; set; }
         public int QuantidadeEstoque { get; set; }
 
     }
